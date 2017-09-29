@@ -1,0 +1,25 @@
+---
+---
+{{reference}}
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+  [<a href="javascript:toggle_visibility('{{key}}-bibtex')">BibTeX</a>]
+{% if entry.pdf %}
+  [<a href="{{site.url}}/files/pdf/{{entry.pdf}}" target="_blank">preprint</a>]
+{% endif %}
+{% if entry.url %}
+  [<a href="{{entry.url}}" target="_blank">link</a>]
+{% endif %}
+
+<pre id="{{key}}-bibtex" class="pre pre-scrollable" hidden>{{entry.bibtex}}</pre>

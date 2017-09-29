@@ -1,0 +1,82 @@
+# Site wide configuration
+
+title:  Puttichai Lertkultanon
+locale: en_US
+url:
+
+# Jekyll configuration
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll/scholar
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+# Publications
+# scholar:
+#   style: annales
+#   locale: en
+
+#   sort_by: year
+#   order: descending
+
+#   source: /_data
+#   bibliography: publications.bib
+#   bibliography_template: bibitem
+
+#   replace_strings: false
+#   join_strings:    true
+
+#   details_dir: ''
+#   details_layout: ''
+#   details_link: ''
+
+#   query: "@*"
+
+# Site owner
+owner:
+  name: Puttichai Lertkultanon
+  avatar: puttichai.jpg
+  bio: "Passionate about Origami and Maths."
+  email: L.Puttichai@gmail.com
+  disqus-shortname: puttichai
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify:
+    ad-client:
+    ad-slot:
+    scholar: YMVTroAAAAJ
+  bing-verify:
+  github: puttichai
+  roboticsstack: 7610/petch-puttichai
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: petchpl
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: 
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "Rakefile"]
