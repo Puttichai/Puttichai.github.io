@@ -23,25 +23,25 @@ kramdown:
   enable_coderay: false
 
 # Publications
-# scholar:
-#   style: annales
-#   locale: en
+scholar:
+  style: annales
+  locale: en
 
-#   sort_by: year
-#   order: descending
+  sort_by: year
+  order: descending
 
-#   source: /_data
-#   bibliography: publications.bib
-#   bibliography_template: bibitem
+  source: /_data
+  bibliography: publications.bib
+  bibliography_template: bibitem
 
-#   replace_strings: false
-#   join_strings:    true
+  replace_strings: false
+  join_strings:    true
 
-#   details_dir: ''
-#   details_layout: ''
-#   details_link: ''
+  details_dir: ''
+  details_layout: ''
+  details_link: ''
 
-#   query: "@*"
+  query: "@*"
 
 # Site owner
 owner:
