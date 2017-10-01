@@ -1,0 +1,72 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO8859_1
+
+
+@Misc{LP17arxiv,
+  Title                    = {A certified-complete bimanual manipulation planning},
+
+  Author                   = {Puttichai Lertkultanon and Quang-Cuong Pham},
+  HowPublished             = {Available at \url{https://arxiv.org/pdf/1705.02573.pdf}},
+  Month                    = {May},
+  Note                     = {Manuscript submitted to {IEEE} Transactions on Automation Science and Engineering},
+  Year                     = {2017}
+}
+
+@Article{LP16ar,
+  Title                    = {Time-optimal parabolic interpolation with velocity, acceleration, and minimum-switch-time constraints},
+  Author                   = {Puttichai Lertkultanon and Quang-Cuong Pham},
+  Journal                  = {Advanced Robotics},
+  Year                     = {2016},
+  Number                   = {17--18},
+  Pages                    = {1095--1110},
+  Volume                   = {30},
+
+  Owner                    = {puttichai},
+  Timestamp                = {2016.08.02}
+}
+
+@Article{LP15ral,
+  Title                    = {A single-query manipulation planner},
+  Author                   = {Puttichai Lertkultanon and Quang-Cuong Pham},
+  Journal                  = {{IEEE} Robotics and Automation Letters},
+  Year                     = {2015},
+  Number                   = {1},
+  Pages                    = {198--205},
+  Volume                   = {1},
+
+  Doi                      = {10.1109/LRA.2015.2513731}
+}
+
+@InProceedings{LP14icarcv,
+  Title                    = {Dynamic non-prehensile object transportation},
+  Author                   = {Puttichai Lertkultanon and Quang-Cuong Pham},
+  Booktitle                = {Control Automation Robotics \& Vision ({ICARCV}), 2014 13th International Conference on},
+  Year                     = {2014},
+  Pages                    = {1392--1397}
+}
+
+@Article{PhaX16ijrr,
+  Title                    = {Admissible velocity propagation: Beyond quasi-static path planning for high-dimensional robots},
+  Author                   = {Quang-Cuong Pham and St{\'{e}}phane Caron and Puttichai Lertkultanon and Yoshihiko Nakamura},
+  Journal                  = {The International Journal of Robotics Research},
+  Year                     = {2016},
+  Number                   = {1},
+  Pages                    = {44--67},
+  Volume                   = {36}
+}
+
+@InProceedings{PLS13sice,
+  Title                    = {Sparse system identification for discovering brain connectivity from {fMRI} time series},
+  Author                   = {Arnan Pongrattanakul and Puttichai Lertkultanon and Jitkomut Songsiri},
+  Booktitle                = {{SICE} Annual Conference ({SICE}), 2013 Proceedings of},
+  Year                     = {2013},
+  Pages                    = {949--954}
+}
+
+@Article{XLP16arxiv,
+  Title                    = {Closed-chain manipulation of large objects by multi-arm robotic systems},
+  Author                   = {Zhou Xian and Puttichai Lertkultanon and Quang-Cuong Pham},
+  Journal                  = {arXiv preprint arXiv:1612.01650},
+  Year                     = {2016}
+}
+
