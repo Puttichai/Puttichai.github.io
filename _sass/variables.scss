@@ -9,8 +9,10 @@
 $doc-font-size: 16;
 $doc-line-height: 26;
 $paragraph-indent: false;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
+// $base-font: 'PT Serif', serif;
+$base-font: 'Open Sans', sans-serif;
+$heading-font: 'Coda', sans-serif;
+// $heading-font: 'PT Sans Narrow', sans-serif;
 $code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
@@ -35,7 +37,7 @@ $primary			: $black;
 $success			: #5cb85c;
 $warning			: #dd8338;
 $danger				: #C64537;
-$info				  : #308cbc;
+$info 				: #308cbc;
 
 /* brands */
 $facebook-color     : #3b5998;
@@ -52,11 +54,11 @@ $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
 
 /* links */
-$linkcolor 		    : #C60C30;
+$linkcolor 	  : #333333;//#C60C30;
 $link-color       : $linkcolor;
-$linkcolorhover 	: darken($linkcolor, 10);
+$linkcolorhover   : darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
-$linkcolorfocus 	: darken($linkcolorvisited, 10);
+$linkcolorfocus   : darken($linkcolorvisited, 10);
 
 /*
    Breakpoints
