@@ -1,0 +1,1 @@
+* To add a new tab <New Tab> in home, create <New Tab>.md in the root directory. Then add a new entry to _data/navigation.yml.
