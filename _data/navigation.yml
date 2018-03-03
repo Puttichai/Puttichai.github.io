@@ -1,10 +1,13 @@
 # Site navigation links
 
-- title: Origami
-  url: /origami/
-
 - title: Publications
   url: /publications/
+
+- title: Sheet Music
+  url: /sheet_music/
+
+- title: Origami
+  url: /origami/
 
 - title: Blog
   url: /posts/
