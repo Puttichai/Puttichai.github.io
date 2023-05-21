@@ -3,6 +3,7 @@ layout: page
 title: Publications
 excerpt: "My publications"
 comments: false
+permalink: /publications/
 ---
 
 ### Journal Articles

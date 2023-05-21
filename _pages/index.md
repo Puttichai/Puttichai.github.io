@@ -2,6 +2,7 @@
 layout: page
 tags: [about]
 comments: false
+permalink: /
 ---
 
 Welcome to my personal page.
