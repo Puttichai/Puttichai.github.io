@@ -54,3 +54,13 @@ Author: S太郎 (S-Taro)
 Author: S太郎 (S-Taro)
 "
 %}
+
+{% include gallery 
+id="gallery_cranes_row3"
+layout="half"
+class="full"
+caption="
+* **Congratuations Crane 寿鶴**  
+Author: N/A (traditional model)
+"
+%}
