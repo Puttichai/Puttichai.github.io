@@ -5,50 +5,50 @@ excerpt: "Origami/Omnibus"
 permalink: /origami/omnibus
 
 gallery_omnibus_1:
-  - image_path: cat.jpg
-    url: cat.jpg
-  - image_path: asiatic_elephant.jpg
-    url: asiatic_elephant.jpg
-  - image_path: horse.jpg
-    url: horse.jpg
+  - image_path: /images/origami/omnibus/cat.jpg
+    url: /images/origami/omnibus/cat.jpg
+  - image_path: /images/origami/omnibus/asiatic_elephant.jpg
+    url: /images/origami/omnibus/asiatic_elephant.jpg
+  - image_path: /images/origami/omnibus/horse.jpg
+    url: /images/origami/omnibus/horse.jpg
 gallery_omnibus_2:
-  - image_path: lion.jpg
-    url: lion.jpg
-  - image_path: fugu.jpg
-    url: fugu.jpg
-  - image_path: tanuki.jpg
-    url: tanuki.jpg
+  - image_path: /images/origami/omnibus/lion.jpg
+    url: /images/origami/omnibus/lion.jpg
+  - image_path: /images/origami/omnibus/fugu.jpg
+    url: /images/origami/omnibus/fugu.jpg
+  - image_path: /images/origami/omnibus/tanuki.jpg
+    url: /images/origami/omnibus/tanuki.jpg
 gallery_omnibus_3:
-  - image_path: dragon_chuya.jpg
-    url: dragon_chuya.jpg
-  - image_path: asian_tapir.jpg
-    url: asian_tapir.jpg
-  - image_path: leafy_sea_dragon.jpg
-    url: leafy_sea_dragon.jpg
+  - image_path: /images/origami/omnibus/dragon_chuya.jpg
+    url: /images/origami/omnibus/dragon_chuya.jpg
+  - image_path: /images/origami/omnibus/asian_tapir.jpg
+    url: /images/origami/omnibus/asian_tapir.jpg
+  - image_path: /images/origami/omnibus/leafy_sea_dragon.jpg
+    url: /images/origami/omnibus/leafy_sea_dragon.jpg
 gallery_omnibus_4:
-  - image_path: cyclomatus_metalifer_2.jpg
-    url: cyclomatus_metalifer_2.jpg
-  - image_path: wild_boar.jpg
-    url: widl_boar.jpg
-  - image_path: devil.jpg
-    url: devil.jpg
+  - image_path: /images/origami/omnibus/cyclomatus_metalifer_2.jpg
+    url: /images/origami/omnibus/cyclomatus_metalifer_2.jpg
+  - image_path: /images/origami/omnibus/wild_boar.jpg
+    url: /images/origami/omnibus/widl_boar.jpg
+  - image_path: /images/origami/omnibus/devil.jpg
+    url: /images/origami/omnibus/devil.jpg
 gallery_omnibus_5:
-  - image_path: sheep.jpg
-    url: sheep.jpg
-  - image_path: owl.jpg
-    url: owl.jpg
-  - image_path: pandas.jpg
-    url: pandas.jpg
+  - image_path: /images/origami/omnibus/sheep.jpg
+    url: /images/origami/omnibus/sheep.jpg
+  - image_path: /images/origami/omnibus/owl.jpg
+    url: /images/origami/omnibus/owl.jpg
+  - image_path: /images/origami/omnibus/pandas.jpg
+    url: /images/origami/omnibus/pandas.jpg
 gallery_omnibus_6:
-  - image_path: sheperd.jpg
-    url: sheperd.jpg
-  - image_path: poodle.jpg
-    url: poodle.jpg
-  - image_path: golden_retriever.jpg
-    url: golden_retriever.jpg
+  - image_path: /images/origami/omnibus/sheperd.jpg
+    url: /images/origami/omnibus/sheperd.jpg
+  - image_path: /images/origami/omnibus/poodle.jpg
+    url: /images/origami/omnibus/poodle.jpg
+  - image_path: /images/origami/omnibus/golden_retriever.jpg
+    url: /images/origami/omnibus/golden_retriever.jpg
 gallery_omnibus_7:
-  - image_path: cocker_spaniel.jpg
-    url: cocker_spaniel.jpg
+  - image_path: /images/origami/omnibus/cocker_spaniel.jpg
+    url: /images/origami/omnibus/cocker_spaniel.jpg
 ---
 
 {% include gallery 
