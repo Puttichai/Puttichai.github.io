@@ -156,6 +156,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-gist
+  jekyll-include-cache
   jekyll-scholar
   jekyll-sitemap
   kramdown-parser-gfm

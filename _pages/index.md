@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 tags: [about]
 comments: false
 permalink: /

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Origami/Omnibus
 excerpt: "Origami/Omnibus"
 permalink: /origami/omnibus

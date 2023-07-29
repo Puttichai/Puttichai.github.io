@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Origami/Crane Variations
 excerpt: "Origami/Cranes"
 permalink: /origami/cranes

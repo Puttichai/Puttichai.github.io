@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Sheet Music
 excerpt: "A list of my piano arrangement/transcription"
 permalink: /sheet_music/

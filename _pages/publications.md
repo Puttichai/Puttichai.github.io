@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Publications
 excerpt: "My publications"
 comments: false

@@ -1,11 +1,3 @@
-<head>
-<style>
-figure: {
-  margin: 40px;
-}
-</style>
-</head>
-
 {% if include.id %}
   {% assign gallery = page[include.id] %}
 {% else %}
@@ -27,13 +19,13 @@ figure: {
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
     {% if img.url %}
-      <a href="{% if include.resource_root %}{{ include.resource_root }}{% endif %}{{ img.url | relative_url }}"
+      <a href="{{ img.url | relative_url }}"
         {% if img.title %}title="{{ img.title }}"{% endif %}>
-          <img src="{% if include.resource_root %}{{ include.resource_root }}{% endif %}{{ img.image_path | relative_url }}"
+          <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       </a>
     {% else %}
-      <img src="{% if include.resource_root %}{{ include.resource_root }}{% endif %}{{ img.image_path | relative_url }}"
+      <img src="{{ img.image_path | relative_url }}"
            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
     {% endif %}
   {% endfor %}
