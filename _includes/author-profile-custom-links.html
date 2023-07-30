@@ -1,7 +1,15 @@
-<!--
+{% if author.roboticsstack %}
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    <a href="https://robotics.stackexchange.com/users/{{ author.roboticsstack }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fab fa-fw fa-stack-exchange" aria-hidden="true"></i><span class="label">SE Robotics</span>
     </a>
   </li>
--->
+{% endif %}
+
+{% if author.google.scholar %}
+  <li>
+    <a href="http://scholar.google.com/citations?user={{ author.google.scholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i><span class="label">Google Scholar</span>
+    </a>
+  </li>
+{% endif %}
