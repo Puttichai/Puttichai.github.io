@@ -1,8 +1,8 @@
 ---
 layout: single
-tags: [about]
 comments: false
 permalink: /
+author_profile: true
 ---
 
 Welcome to my personal page.
